@@ -8,5 +8,5 @@ class FillerWidget extends Widget
 {
     protected string $view = 'filament.widgets.filler-widget';
     protected int|string|array $columnSpan = 'full';
-    protected static bool $isLazy = true;
+    protected static bool $isLazy = false;
 }
